@@ -28,7 +28,7 @@ export const Hero = () => {
                                 WhatsApp
                             </a>
                         </li>
-                        
+
                     </ul>
                     <div className="flex justify-center">
                         <button className="text-white border w-60 mt-20 rounded-md h-10 bg-blue-500 hover:bg-blue-700 transition-colors duration-300">
@@ -37,7 +37,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <div>
-                    <img className="rounded border" width={350} src="/src/assets/perfil.jpg" alt="Foto de Vitório" />
+                    <img className="rounded border" width={350} src="/public/perfil.jpg" alt="Foto de Vitório" />
                 </div>
             </div>
         </div>
