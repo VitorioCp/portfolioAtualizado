@@ -10,13 +10,18 @@ export const Formation = () => {
 
     const certificates = [
         {
-            title: "Certificado de React",
+            title: "Desenvolvimento Web Completo",
             institution: "Udemy",
             period: "01/2023"
         },
         {
             title: "Certificado de Node.js",
-            institution: "Coursera",
+            institution: "Dio",
+            period: "03/2023"
+        },
+        {
+            title: "Certificado de Rect.js",
+            institution: "Dio",
             period: "03/2023"
         },
         // Adicione mais certificados conforme necessário
