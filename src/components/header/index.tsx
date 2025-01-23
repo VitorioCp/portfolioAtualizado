@@ -3,7 +3,7 @@ import { useState } from 'react';
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const handleOverlayClick = (e) => {
+    const handleOverlayClick = (e:any) => {
         if (e.target.id === 'overlay') {
             setIsOpen(false);
         }
