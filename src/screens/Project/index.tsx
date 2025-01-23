@@ -2,24 +2,24 @@ export const Project = () => {
     const projects = [
         {
             title: "Boa Conexão",
-            image: "/public/boaConexao.png",
+            image: "/boaConexao.png",
             siteLink: "https://boaconexao.com.br",
             githubLink: "https://github.com/VitorioCp/boa-conexao"
         },
         {
             title: "Ancorar",
-            image: "/public/siteAncorar.png",
+            image: "/siteAncorar.png",
             siteLink: "https://ancorarpsi.com",
             githubLink: "https://github.com/VitorioCp/psicologia"
         },
         {
             title: "Finans",
-            image: "/public/siteFinans.png",
+            image: "/siteFinans.png",
             siteLink: "https://finans-tau.vercel.app",
             githubLink: "https://github.com/VitorioCp/Finans"
         }, {
             title: "Todoou",
-            image: "/public/todoou.png",
+            image: "/todoou.png",
             siteLink: "https://frontend-todoou.vercel.app",
             githubLink: "https://github.com/VitorioCp/psicologia"
         },
