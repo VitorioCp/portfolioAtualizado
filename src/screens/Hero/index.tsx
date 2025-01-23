@@ -33,7 +33,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <div className="mt-8 md:mt-0 hidden md:block">
-                    <img className="rounded border w-60 md:w-80" src="/public/perfil.jpg" alt="Foto de Vitório" />
+                    <img className="rounded border w-60 md:w-80" src="/perfil.jpg" alt="Foto de Vitório" />
                 </div>
             </div>
         </div>
