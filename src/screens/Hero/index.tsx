@@ -5,7 +5,7 @@ export const Hero = () => {
         <div id="home" className="bg-black h-screen flex flex-col ">
             <div className="flex flex-col md:flex-row justify-between my-auto px-5 items-center w-full max-w-[1200px] mx-auto flex-wrap"> 
                 <div className="text-center md:text-left" >
-                    <h1 className="text-white text-4xl md:text-5xl lg:text-6xl w-full md:w-[400px]">Olá, me chamo <br />Vitório Corrêa <br />Desenvolvedor Front End </h1>
+                    <h1 className="text-white text-4xl md:text-5xl lg:text-6xl w-full md:w-[400px]">Olá, me chamo <br />Vitório sou <br />Desenvolvedor Front End </h1>
                     <ul className="text-white flex flex-col md:flex-row gap-5 mt-8 justify-center md:justify-start">
                         <li className="flex items-center gap-2 hover:text-gray-400">
                             <a href="https://github.com/VitorioCp" className="flex items-center gap-2 hover:text-gray-400">
@@ -14,13 +14,13 @@ export const Hero = () => {
                             </a>
                         </li>
                         <li className="flex items-center gap-2 hover:text-gray-400">
-                            <a href="https://www.linkedin.com/in/vitorio-correa/" className="flex items-center gap-2 hover:text-gray-400">
+                            <a href="https://www.linkedin.com/in/vitorio-correa/" className="flex items-center gap-2 hover:text-blue-500">
                                 <FaLinkedin className="h-6 w-6" />
                                 Linkedin
                             </a>
                         </li>
                         <li className="flex items-center gap-2 hover:text-gray-400">
-                            <a href="https://wa.me/5521969896963" className="flex items-center gap-2 hover:text-gray-400">
+                            <a href="https://wa.me/5521969896963" className="flex items-center gap-2 hover:text-green-500">
                                 <FaWhatsapp className="h-6 w-6" />
                                 WhatsApp
                             </a>

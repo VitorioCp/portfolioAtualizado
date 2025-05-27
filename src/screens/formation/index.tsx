@@ -5,6 +5,11 @@ export const Formation = () => {
             institution: "Estácio SA",
             period: "02/2023 - 12/2027"
         },
+        {
+            title: "Ensino Médio Faetec Programação de jogos digitais",
+            institution: "Faetec",
+            period: "02/2021 - 12/2023"
+        }
         // Adicione mais formações conforme necessário
     ];
 
@@ -40,7 +45,7 @@ export const Formation = () => {
                         </div>
                     ))}
                 </div>
-                <h1 className="text-white text-4xl font-bold mb-8">Certificados</h1>
+                <h1 className="text-white text-4xl font-bold mb-8 mt-16">Certificados</h1>
                 <div>
                     {certificates.map((certificate, index) => (
                         <div key={index} className="mb-4">

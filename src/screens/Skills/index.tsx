@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export const Skills = () => {
     const skills = [
@@ -9,6 +9,8 @@ export const Skills = () => {
         { name: "React", icon: <FaReact className="h-16 w-16 mb-4 text-blue-500" /> },
         { name: "Node.js", icon: <FaNodeJs className="h-16 w-16 mb-4 text-green-500" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="h-16 w-16 mb-4 text-teal-500" /> },
+        { name: "TypeScript", icon: <FaJs className="h-16 w-16 mb-4 text-blue-500" /> },
+        { name: "Next.js", icon: <SiNextdotjs  className="h-16 w-16 mb-4 text-white" /> },
     ];
 
     return (
