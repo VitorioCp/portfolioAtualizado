@@ -5,17 +5,20 @@ export const Hero = () => {
   return (
     <div id="home" className="bg-black h-screen flex flex-col">
       <div className="flex flex-col md:flex-row justify-between my-auto px-5 items-center w-full max-w-[1200px] mx-auto flex-wrap">
-        
+
         <div className="text-center md:text-left">
           {/* Título animado */}
           <motion.h1
-            className="text-white text-4xl md:text-5xl lg:text-6xl w-full md:w-[400px]"
+            className="text-white text-4xl md:text-5xl lg:text-6xl w-full md:w-[400px] leading-tight"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Olá, me chamo <br />Vitório sou <br />Desenvolvedor Front End
+            Vitório Corrêa <br />
+            Desenvolvedor Front-End
           </motion.h1>
+
+
 
           {/* Introdução animada */}
           <motion.p
